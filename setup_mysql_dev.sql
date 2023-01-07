@@ -10,7 +10,7 @@ CREATE USER IF NOT EXISTS 'hbnb_dev'@'localhost' IDENTIFIED BY 'hbnb_dev_pwd';
 GRANT ALL PERMISSIONS ON hbnb_dev_db.* TO 'hbnb_dev'@'localhost';
 
 -- GRANTING select permisions to user
-GRANT SELECT ON perfomance_schema TO 'hbnb_dev'@'localhost';
+GRANT SELECT ON perfomance_schema.* TO 'hbnb_dev'@'localhost';
 
 -- flushing priviledges
 FLUSH PRIVILEDGES; 
